@@ -1,0 +1,113 @@
+.texto{
+  color: black;
+  max-width: 250px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+body{
+  background-color: white;
+}
+
+.imagem-destaque {
+  width: 300px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 8px;
+}
+
+.faixa {
+  width: 100%;
+  height: 60px;
+  background-color: black; 
+  text-align: center;
+  line-height: 60px; /* Centraliza o texto verticalmente */
+  color: red;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.faixa2 {
+  width: 100%;
+  height: 400px;
+  background-color: black; /* Cor azul */
+  text-align: center;
+  line-height: 60px; /* Centraliza o texto verticalmente */
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  background-color: rgb(217, 217, 217);;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+}
+
+.imagem-logo {
+  width: 120px; 
+  height: auto;
+}
+
+.imagem-link{
+   width: 25px; /* Aumenta o tamanho da imagem */
+  height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço: um em cada canto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço: um em cada canto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+
+.containercontato {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(217, 217, 217);
+}
+
+.beneficios, .formulario {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
